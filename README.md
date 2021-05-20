@@ -12,7 +12,13 @@ Workshop materials for Prefect for data pipelines in Python for the Research Baz
     
     `pip install -r requirements.txt`
 
-3. Download the data using the [get_data.sh](get_data.sh)
+3. Download the data using:
+    - (preferably) `python get_data.py` 
+
+    OR
+
+    - [get_data.sh](get_data.sh)
+
 4. If you will work with the Prefect server start the download of the server Docker files
     - `prefect backend server`
     - `prefect server start`

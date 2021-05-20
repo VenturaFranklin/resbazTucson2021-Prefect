@@ -131,6 +131,7 @@ dmypy.json
 # prevent data from being committed
 data/*
 !data/files.txt
+!data/files_gdrive.txt
 
 .vscode/settings.json
 
