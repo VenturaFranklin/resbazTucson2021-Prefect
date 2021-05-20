@@ -33,14 +33,14 @@ Workshop materials for [Prefect](http://prefect.io/) for data pipelines in Pytho
 Clock Time| Time | Segment Description
 ----------|------|--------------------
 0:00-0:05 | 5    | Arrival
-0:05-0:20 | 20   | Intro and Presentation
-0:20-0:35 | 10   | Installation and setup (MUST DO! data takes time)
-0:35-0:55 | 25   | Prefect hello world
-0:55-1:00 | 5    | BREAK
-1:00-1:10 | 10   | pipeline and image review
-1:10-1:30 | 20   | pipeline to pipeline_prefect
-1:30-1:40 | 10   | pipeline_prefect to pipeline_prefect_server
-1:40-1:50 | 5    | review pipeline_prefect_parallel_server
+0:05-0:25 | 20   | Intro and Presentation
+0:25-0:35 | 10   | Installation and setup (MUST DO! data takes time)
+0:35-1:00 | 25   | Prefect hello world
+1:00-1:05 | 5    | BREAK
+1:05-1:15 | 10   | pipeline and image review
+1:15-1:35 | 20   | pipeline to pipeline_prefect
+1:35-1:45 | 10   | pipeline_prefect to pipeline_prefect_server
+1:45-1:50 | 5    | review pipeline_prefect_parallel_server
 1:50-2:00 | 10   | Wrap up
 
 ## Pipeline background
