@@ -19,6 +19,10 @@ Workshop materials for [Prefect](http://prefect.io/) for data pipelines in Pytho
 
     - [get_data.sh](get_data.sh)
 
+    OR 
+
+    - download manually from [Google Drive](https://drive.google.com/drive/folders/1chElMmxHgF83Gdqy4lUOHBmLpo_JZB19?usp=sharing)
+
 4. If you will work with the Prefect server start the download of the server Docker files
     - `prefect backend server`
     - `prefect server start`
@@ -87,11 +91,11 @@ Commands to get started with Prefect server running locally.
 ```
 prefect backend server
 
-prefect create project "Image QC"
+prefect server start
 
 # Run next two commands in separate terminals
 
-prefect server start
+prefect create project "Image QC"
 
 prefect agent local start
 ```
