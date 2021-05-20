@@ -1,5 +1,5 @@
 # Prefect for data pipelines in Python
-Workshop materials for Prefect for data pipelines in Python for the Research Bazaar Tucson, AZ 2021
+Workshop materials for [Prefect](http://prefect.io/) for data pipelines in Python for the Research Bazaar Tucson, AZ 2021
 
 #### Presentation
 [<img src="docs/PresentationTitle.png" width="25%" height="25%" />](Presentation.pdf)
@@ -75,3 +75,12 @@ prefect server start
 
 prefect agent local start
 ```
+
+# Acknowledgements
+
+- [HistoQC](https://github.com/choosehappy/HistoQC) - HistoQC is an open-source quality control tool for digital pathology slides
+    - The [BaseImage.py](BaseImage.py) was modified from this as well as the [pipeline.identifyBlurryRegions](pipeline.py)
+    - Images come from [http://histoqcrepo.com/](http://histoqcrepo.com/)
+- [deep-histopath](https://github.com/CODAIT/deep-histopath)
+    - [Apply filters for tissue segmentation](https://developer.ibm.com/technologies/data-science/articles/an-automatic-method-to-identify-tissues-from-big-whole-slide-images-pt2/)
+        - Used to help create the [pipeline.tissue_segmentation_simple](pipeline.py)
