@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# prevent data from being committed
+data/*
+!data/files.txt
+
+.vscode/settings.json
+
+# prevent the solution files from being committed
+/pipeline_*

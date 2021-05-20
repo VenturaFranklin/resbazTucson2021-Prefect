@@ -1,0 +1,7 @@
+http://haeckel.case.edu:8080/download/TCGA-AC-A23C-01Z-00-DX1.0E67C785-83D3-49AF-B600-FB5B909AE6ED.svs
+http://haeckel.case.edu:8080/download/TCGA-A7-A3IZ-01Z-00-DX1.7437130B-DF49-40C8-ABCD-FF9364B9B1B0.svs
+http://haeckel.case.edu:8080/download/TCGA-AC-A62Y-01Z-00-DX1.5075F4DA-488C-40AD-BD73-6DE8953E1864.svs
+http://haeckel.case.edu:8080/download/TCGA-AC-A2FB-01Z-00-DX1.A4D93E32-BBD7-45E4-8ACF-3724B059ECBC.svs
+http://haeckel.case.edu:8080/download/TCGA-AR-A24Z-01Z-00-DX1.C88AFF18-A8E4-426A-BEA3-70566DE39C46.svs
+http://haeckel.case.edu:8080/download/TCGA-E9-A1N3-01Z-00-DX1.608fb360-17bf-4f85-b090-b8fc867831a3.svs
+http://haeckel.case.edu:8080/download/TCGA-AC-A5XU-01Z-00-DX1.1AEEFAAF-0906-4086-8022-13B689FAB9F5.svs
