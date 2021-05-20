@@ -38,7 +38,7 @@ Workshop materials for Prefect for data pipelines in Python for the Research Baz
 [<img src="docs/flow_schematic.png" width="25%" height="25%" />](docs/flow_schematic.png)
 
 #### Flow timeline in Prefect Server
-[<img src="docs/flow_timeline.png" width="50%" height="50%" />](docs/flow_timeline.png)
+[<img src="docs/flow_timeline.png" width="100%" height="100%" />](docs/flow_timeline.png)
 
 
 ## Notes for running comparison
