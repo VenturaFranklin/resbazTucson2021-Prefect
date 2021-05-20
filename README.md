@@ -24,6 +24,26 @@ Workshop materials for [Prefect](http://prefect.io/) for data pipelines in Pytho
     - `prefect server start`
 
 ## Workshop: Getting started with Prefect
+## Agenda
+120 min total
+Clock Time| Time | Segment Description
+----------|------|--------------------
+0:00-0:05 | 5    | Arrival
+0:05-0:20 | 15   | Intro and Presentation
+0:20-0:35 | 15   | Installation and setup
+0:35-0:55 | 20   | Prefect hello world
+0:55-1:00 | 5    | BREAK
+1:00-1:10 | 10   | pipeline and image review
+1:10-1:30 | 20   | pipeline to pipeline_prefect
+1:30-1:40 | 10   | pipeline_prefect to pipeline_prefect_parallel
+1:40-1:50 | 10   | run on local server with pipeline_prefect_parallel_server
+1:50-2:00 | 10   | Wrap up
+
+### Notes
+0. Hello world in jupyter notebook on Colab
+    - For Google Colab you will need a Google Account, or install jupyter and run the file locally
+    - `pip install jupyter` and then `jupyter notebook` and then open [PrefectHelloWorld.ipynb](PrefectHelloWorld.ipynb)
+    - To run in Colab open the link: [PrefectHelloWorld.ipynb](https://colab.research.google.com/drive/14ARQbAnXhNVZpIlt4pRHk2GTstkgjddK?usp=sharing#scrollTo=jMMGq2pcWlFg&forceEdit=true&sandboxMode=true)
 1. Starting with [pipeline.py](pipeline.py) first convert functions to Prefect tasks and create a Prefect flow.
     - Solution is [pipeline_prefect.py](solutions/pipeline_prefect.py)
 #### Flow visualization serial
@@ -60,7 +80,7 @@ Prefect |    Serial          | 23 seconds       | [pipeline_prefect.py](solution
 Python  |    Serial          | 15 seconds       | [pipeline.py](pipeline.py)
 Python  |    Parallel        | 6 seconds        | [pipeline_parallel.py](pipeline_parallel.py)
 
-## Prefect Setup for Server
+## Prefect Setup for Local Server
 
 Commands to get started with Prefect server running locally.
 
@@ -74,6 +94,17 @@ prefect create project "Image QC"
 prefect server start
 
 prefect agent local start
+```
+
+## Prefect Setup for Cloud Server
+- You need to get a key from: https://cloud.prefect.io/user/keys
+- You will need to make a token: https://cloud.prefect.io/team/service-accounts
+```
+prefect backend cloud
+
+prefect auth login -t {GET_YOUR_KEY}
+
+prefect create project 'Hello, World!'
 ```
 
 # Acknowledgements
